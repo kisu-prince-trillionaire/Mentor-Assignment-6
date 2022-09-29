@@ -1,0 +1,7 @@
+5. Create Random numbers …
+    i. Write a program to create class ‘RandomDemo’ with
+    implemented main method.
+    ii. Inside the main method create a variable of Double type .
+    iii. Now create random numbers using some predefined
+    methods and assign to this variable and print it in the
+    console.

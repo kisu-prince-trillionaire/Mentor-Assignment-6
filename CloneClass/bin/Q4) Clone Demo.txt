@@ -1,0 +1,23 @@
+4. Create Clone of a class
+    i. Write a program to create a class ‘CloneDemo’ which
+    implements java.lang.Cloneable interface with two instance
+    variables of int type having name as number and data.
+    ii. Make the instance variable data as transient.
+    iii. Override the clone() method of Object class in ‘CloneDemo’
+    class .Also override toString() method to print the values of
+    instance variables in console.
+    iv. Implement main method in which create the object of
+    CloneDemo class and assign appropriate values to its
+    instance variables.
+    v. Now create a cloned object using the overridden clone
+    method of ‘CloneDemo’ class.
+    vi. Show the contents of both original object and cloned object
+    in the console
+    
+    --------------------------------output-----------------------------------------
+CloneDemo [number=5, data=7]
+The cloned data is 
+CloneDemo [number=5, data=7]
+CloneDemo [number=15, data=17]
+The cloned data is 
+CloneDemo [number=15, data=17]	

@@ -1,0 +1,52 @@
+  a. Implement an interface Flyable having fly() method and
+    Quackable is an interface having quack() method.
+ b. Create an abstract Class Duck as the (Super class) has a Flyable
+    and Quackable , having one constructor defined to accept two
+    parameter Flyable and Quackable , and one abstract method
+    swim().
+ c. Write two static and two non static block
+ d. Create Two sub classes of Duck i.e DeckyDuck and MolarDuck,
+    each having two static and two non static block and fulfill the
+    other requirements to be compile.
+ e. Create a separate Class DuckSwimTest, from the main method
+    call the swim() method of each class by creating their
+    corresponding object and also find out the flow of executing the
+    constructor, static and non static block by printing some suitable
+    statement.
+    
+    ----------------------------OUTPUT----------------------------------
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+--------------------------------------------------
+Static Block 1 of Duck Class
+Static Block 2 Duck Class
+Static Block 1 of DeckyDuck Class
+Static Block 2 of DeckyDuck Class
+Non Static Block 1 of Duck Class
+Non Static Block 2 of Duck Class
+Default Constructor of Duck Class
+Non Static Block 1 of DeckyDuck Class
+Non Static Block 2 of DeckyDuck Class
+Default constructor of DeckyDuck Class
+Flying
+Quacking
+DeckyDuck Swimming
+Ducks's Concrete Method
+---------------------------------------------------
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+---------------------------------------------------
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Static Block 1 of MolarDuck Class
+Static Block 2 of MolarDuck Class
+Non Static Block 1 of Duck Class
+Non Static Block 2 of Duck Class
+Default Constructor of Duck Class
+Non Static Block 1 of MolarDuck Class
+Non Static Block 2 of MolarDuck Class
+Default constructor of MolarDuck Class
+Flying
+Quacking
+MolarDuck Swimming
+Ducks's Concrete Method
+---------------------------------------------------
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+    

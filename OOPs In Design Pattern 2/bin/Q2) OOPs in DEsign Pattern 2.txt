@@ -1,0 +1,49 @@
+2. OOPS in Design Pattern…2
+    a. Create a directory named as “Package”; make this directory as
+    your current Directory.
+    b. Create class In Package
+    abstract class Player{ com.player;
+    public abstract void play();
+    }
+    interface Playable{ com.playable;
+    public abstract void play();
+    }
+    c. Create the following Concrete Classes using the information given
+    below:
+    i. FootBallPlayer is A Player and Playable, present inside
+    the package com.player.statelevel; with method(s) kick (),
+    corner().
+    ii. TennisPlayer is A Player and Playable, present inside the
+    package com.player.statelevel; separate own method shot().
+    iii. ChessPlayer is A Player and Playable, present inside the
+    package com.player.statelevel; separate own method
+    moveTheDot().
+    iv. CricketPlayer is A Player and Playable and also has A
+    Player, present inside the package com.player.statelevel;
+    having separate own method(s) batting() and bowling().
+    v. If you write play() in CricketPlayer class, then one print
+    statement should be there;
+    System.out.print(“ WITH A CRICKET BALL”);
+    vi. If you write play() in FootBallPlayer class, then one print
+    statement should be there;
+    System.out.print(“ WITH A FOOT BALL”);
+    vi. If you write play() in FootBallPlayer class, then one print
+    statement should be there;
+    System.out.print(“ WITH A FOOT BALL”);
+    vii. If you write play() in TennisPlayer class, then one print
+    statement should be there;
+    System.out.print(“ WITH A TENNIS BALL”);
+    viii. If you write play() in ChessPlayerclass, then one print
+    statement should be there;
+    System.out.print(“ WITH A CHESS DOT”);
+    ix. Create a Separate Class Tester. Inside main method of
+    Tester Class call the batting method of CricketPlayer
+    Class four times only , and the output should be : -
+    OUT PUT :-
+    Ganguly is batting WITH A CRICKET BALL
+    Ganguly is batting WITH A FOOT BALL
+    Ganguly is batting WITH A TENNIS BALL
+    Ganguly is batting WITH A CHESS DOT
+    x. For the above out put you have to design batting method in
+    such a way that, it can accept a ChessPlayer,
+    CricketPlayer , TennisPlayer and FootBallPlayer object.

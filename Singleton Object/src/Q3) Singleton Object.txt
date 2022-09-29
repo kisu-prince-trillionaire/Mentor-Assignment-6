@@ -1,0 +1,30 @@
+3. Creating a Singleton class…
+    i. Write a program to create a class ‘SingletonObject’ having a
+    private static reference variable ‘singletonObject’ of same
+    class type i.e. of SingletonObject type and initialize it to
+    null.
+    ii. It also implements a default constructor having visibility as
+    private.(So that from outside no one can create the object of
+    this class)
+    iii. Now implement a public static synchronized method
+    ‘getSingletonObject’ ,whose return type is ‘SingletonObject’.
+    iv. Inside this method check whether the static variable
+    ‘singletonObject’ is null or not, if null create a new
+    ‘SingletonObject’ and assign it to it.
+    v. In return this method returns the singletonObject .
+    vi. Now override the clone() method inside this class as following
+    ..
+    public Object clone() throws CloneNotSupportedException {
+    throw new CloneNotSupportedException();
+    }
+    vii. Now write a program to create a class ‘SingletonObject’ to
+    check whether the above class is singleton or not …
+    viii. Inside the above test case class create different objects of the
+    Singleton class and compare these objects in between to
+    find whether they all same objects or different objects.
+    
+    --------------------------------0UTPUT---------------------------------------
+    getSingletonObject working : 1
+Singleton Object is not null
+Singleton Object is not null
+Singleton Object is not null
